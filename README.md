@@ -21,7 +21,7 @@
        Mac OS
           python3 -m venv env
           source env/bin/activate - for Unix or MacOS
-          pip install -r requirements
+          pip install -r requirements.txt
   
         Windows
           py -m venv env
