@@ -1,9 +1,20 @@
 # Yadro
 
-## Как запустить:
-   Создайте venv и установите требования
+
+## Получение отчетов: 
+   Установка allure 
    
    В командной строке
+   
+       Mac OS
+          brew install allure
+
+       Windows 
+          scoop install allure
+
+
+## Как запустить:
+   Создайте venv и установите требования
    
    cd (путь к папки с проектом)
        
@@ -16,18 +27,6 @@
           py -m venv env
           .\env\Scripts\activate
           py -m pip install -r requirements.txt
-
-
-
-
-## Получение отчетов: 
-   Установка allure 
-   
-       Mac OS
-          brew install allure
-
-       Windows 
-          scoop install allure
 
 
 ## Запуск программы:
